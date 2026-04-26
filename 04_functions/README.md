@@ -1,4 +1,4 @@
-# Section 4: Functions and Modules
+# Section 4: Functions
 
 This section teaches how to **name and reuse** behavior with **functions**, how arguments and return values work, flexible signatures with `*args` and `**kwargs`, and **scope**.
 
