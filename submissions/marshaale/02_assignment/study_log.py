@@ -1,7 +1,22 @@
 def main():
     notes = load_notes("notes.txt")
-    print(notes)
-    save_notes("notes.txt",[1,3,4])
+    while True:
+        print("1) Add note  2) List  3) Quit ")
+        user_choose = input("Pick: ")
+        if user_choose == "1":
+            note = input("Write your note... ").strip()
+            if note:
+                notes.append(note)
+        elif user_choose == "2":
+            for note in notes:
+                print(note)
+        elif user_choose == "3":
+            save_notes("notes.txt",notes)
+            print("Bye!")
+            break
+        else:
+            print("invalid number picked")
+
 
 def load_notes(path):
     notes = []
