@@ -1,0 +1,5 @@
+# Blood Bank Records
+donor_id|name|blood_group|age
+1|Ali Ahmed Ali|O+|17
+2|Canab Cusman Cilmi|A+|20
+3|M/med Ahmed Muuse|O+|22
